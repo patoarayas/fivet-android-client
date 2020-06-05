@@ -7,6 +7,7 @@ plugins {
 
 slice{
     java {
+        files = [file("./src/main/slice/domain.ice")]
         logger.lifecycle("Slicing file: ${files}")
     }
 }
